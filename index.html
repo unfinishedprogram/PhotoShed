@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ static_url('style.css') }}">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Home Page</title>
+
+</head>
+
+<body>
+    <h1>This is a quick performance test</h1>
+    <form action="/otherpage">
+        <button type="submit">Click here to go to the other page</button>
+    </form>
+
+    <div id="images">
+        <img src="{{ static_url('test1.jpg') }}" alt="">
+        <img src="{{ static_url('test2.jpg') }}" alt="">
+        <img src="{{ static_url('test3.jpg') }}" alt="">
+        <img src="{{ static_url('test4.jpg') }}" alt="">
+        <img src="{{ static_url('test5.jpg') }}" alt="">
+        <img src="{{ static_url('test6.jpg') }}" alt="">
+        <img src="{{ static_url('test7.jpg') }}" alt="">
+        <img src="{{ static_url('test8.jpg') }}" alt="">
+    </div>
+
+
+</body>
+
+</html>
